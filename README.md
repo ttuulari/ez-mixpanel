@@ -1,4 +1,4 @@
-# ez_mixpanel
+# ez-mixpanel
 
 Talk with mixpanel from the server.
 
