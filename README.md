@@ -4,7 +4,8 @@ Talk with mixpanel from the server.
 
 ## Usage
 
-```(require '[ez-mixpanel :as emp])
+```clojure
+(require '[ez-mixpanel :as emp])
 
 ;; token:        Gotten from the mixpanel account panel
 ;; distinct-id:  The id which mixpanel tracks around. Normally it's the id in the database for a user. 
