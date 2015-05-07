@@ -12,8 +12,8 @@ Talk with mixpanel from the server.
 ;;               distinct-id is always converted to a string
 ;; event:        The event to track. Always a string
 ;; opts:         Optional parameters to send in to mixpanel which have special significance. 
-;;               Refer to mixpanel documentation. Set :time to :mixpanel if you wish for mixpanel to set the time
-;;               for the event. This is for the event function only.
+;;               Refer to mixpanel documentation. Set :time to :mixpanel if you wish for mixpanel to 
+;;               set the time for the event. This is for the event function only.
 ;; data:         Optional parameters to send in to mixpanel for the event itself.
 
 ;; optional callback for receiving the result of the interaction with mixpanel's servers
