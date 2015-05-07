@@ -1,4 +1,4 @@
-(defproject ez_mixpanel "1.0"
+(defproject ez-mixpanel "1.0"
   :description "mixpanel library for sending events and profile updates"
   :url "https://github.com/emil0r/ez-mixpanel"
   :license {:name "Eclipse Public License"

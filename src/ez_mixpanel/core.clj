@@ -29,7 +29,7 @@
             (not (nil? event))
             (not (nil? distinct-id))]}
      (let [distinct-id (str distinct-id)
-           time? (not (false? time))
+           time? (not (= :mixpanel time))
            opts {:user-agent "ez mixpanel"
                  :query-params {:data
                                 (->> (merge
