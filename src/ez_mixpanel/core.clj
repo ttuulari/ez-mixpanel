@@ -33,10 +33,11 @@
            opts {:user-agent "ez mixpanel"
                  :query-params {:data
                                 (->> (merge
-                                      {:distinct_id distinct-id
-                                       :token token
-                                       :event event
-                                       :properties data}
+                                      {:event event
+                                       :properties (merge
+                                                    data
+                                                    {:distinct_id distinct-id
+                                                     :token token})}
                                       (dissoc opts :time)
                                       (if time?
                                         {:time (or time (timestamp))}))
