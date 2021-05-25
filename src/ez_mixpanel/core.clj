@@ -5,8 +5,8 @@
            [java.util Date Calendar TimeZone])
   (:refer-clojure :exclude [set]))
 
-(def track-url "http://api.mixpanel.com/track")
-(def engage-url "http://api.mixpanel.com/engage")
+(def track-url "http://api-eu.mixpanel.comtrack")
+(def engage-url "http://api-eu.mixpanel.com/engage")
 
 (defn timestamp
   "Factors in timezone but not DST"
